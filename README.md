@@ -4,6 +4,34 @@
     <meta charset="UTF-8">
     <title>README - File Copier Tool</title>
     <style>
+                  h1, h2 {
+        color: #ff8f00; /* Orange */
+    }
+ p, li {
+        color: #ffffff;
+        line-height: 1.6;
+    }
+
+ a {
+        color: #00bcd4; /* Turquoise */
+    }
+
+ code {
+        background-color: #45456b; /* Darker background for code sections */
+        color: #ffcc80; /* Light orange for text */
+        padding: 5px;
+        border-radius: 4px;
+        display: block;
+        white-space: pre-wrap;
+    }
+
+  section {
+        background-color: #3d3d5c; /* Slightly lighter background for sections */
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #33334d;
@@ -12,36 +40,9 @@
             margin: 0;
         }
 
-        h1, h2 {
-            color: #ff8f00; /* Orange */
-        }
+  
+</style>
 
-        p, li {
-            color: #ffffff;
-            line-height: 1.6;
-        }
-
-        a {
-            color: #00bcd4; /* Turquoise */
-        }
-
-        code {
-            background-color: #45456b; /* Darker background for code sections */
-            color: #ffcc80; /* Light orange for text */
-            padding: 5px;
-            border-radius: 4px;
-            display: block;
-            white-space: pre-wrap;
-        }
-
-        section {
-            background-color: #3d3d5c; /* Slightly lighter background for sections */
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-    </style>
 </head>
 <body>
     <h1>File Copier Tool</h1>
